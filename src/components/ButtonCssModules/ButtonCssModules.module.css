@@ -1,0 +1,23 @@
+.container {
+    padding: 16px;
+    border-radius: 8px;
+    background: #007bff;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all ease .2s;
+}
+
+.container:hover {
+    opacity: .9;
+}
+
+.icon {
+    margin: 0 12px 0 0;
+}
+
+.label {
+    font-size: 24px;
+}
