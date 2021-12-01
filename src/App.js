@@ -5,9 +5,6 @@ import { Menu } from 'react-feather';
 import { ButtonCssModules } from './components/ButtonCssModules/ButtonCssModules';
 import { ButtonStyledComponents } from './components/ButtonStyledComponents/ButtonStyledComponents';
 
-// green: #28a745
-// red: #dc3545
-
 const App = () => {
     return (
         <div className='app'>
