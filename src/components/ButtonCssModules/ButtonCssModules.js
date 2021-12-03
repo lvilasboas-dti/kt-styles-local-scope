@@ -1,8 +1,10 @@
 import styles from './ButtonCssModules.module.css';
 
-export const ButtonCssModules = ({ icon, label }) => {
+console.log({ styles });
+
+export const ButtonCssModules = ({ icon, label, type }) => {
     return (
-        <button className={styles['container']}>
+        <button className={`${styles['container']} ${styles[type]}`}>
             {!!icon &&
                 <div className={styles['icon']}>
                     {icon}

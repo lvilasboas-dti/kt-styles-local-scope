@@ -1,8 +1,8 @@
-import { Container, Icon } from './ButtonStyledComponents.styles';
+import { Container, Icon, Label } from './ButtonStyledComponents.styles';
 
-export const ButtonStyledComponents = ({ icon, label }) => {
+export const ButtonStyledComponents = ({ icon, label, type }) => {
     return (
-        <Container>
+        <Container type={type}>
             {!!icon &&
                 <Icon>
                     {icon}
@@ -10,9 +10,9 @@ export const ButtonStyledComponents = ({ icon, label }) => {
             }
 
             {!!label &&
-                <div className='label'>
+                <Label>
                     {label}
-                </div>
+                </Label>
             }
         </Container>
     )
